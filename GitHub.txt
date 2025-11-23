@@ -1,0 +1,25 @@
+
+*****
+https://github.com/fpm1973/MyWebServiceHello
+
+1004166@estudante.uab.pt
+Fpm@06@@1973
+
+*****
+
+/* estando dentro da pasta do projeto, indique a URL */
+
+git init
+git remote add origin https://github.com/fpm1973/MyWebServiceHello
+
+-- este comando é para o caso de haver erro :: confiar na propriedade desse caminho de diretório específico.
+git config --global --add safe.directory 'D:\Universidade Aberta\Mestrado EITW\Ano 1\Semestre 1\Arquitetura e Padrões de Software 2025\Semana 5 - Topico 4\WebService' 
+
+
+git add *
+git commit -m "Tarefa 3.1"
+git branch -M main
+git push -u origin main (ou git push -u origin main --force)
+
+
+
