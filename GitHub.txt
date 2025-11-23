@@ -17,9 +17,9 @@ git config --global --add safe.directory 'D:\Universidade Aberta\Mestrado EITW\A
 
 
 git add *
-git commit -m "Tarefa 3.1"
+git commit -m "primeiro commit"
 git branch -M main
-git push -u origin main (ou git push -u origin main --force)
+git branch -M main (ou git push -u origin main --force)
 
 
 
