@@ -1,4 +1,3 @@
 FROM php:8.2-apache
 
-COPY index.html /var/www/html/
-
+COPY index.php /var/www/html/
