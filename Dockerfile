@@ -1,7 +1,4 @@
 FROM php:8.2-apache
 
-COPY app/ /var/www/html/
+COPY index.html /var/www/html/
 
-RUN a2enmod rewrite
-
-EXPOSE 80
